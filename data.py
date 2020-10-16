@@ -191,7 +191,7 @@ class Data:
                                             self.tmp_chunk_tpl % cidx,
                                             begin,
                                             end)
-                                           for cidx, (begin, end) in enumerate(chunk_offsets)]).get(9999999)
+                                           for cidx, (begin, end) in enumerate(chunk_offsets)]).get(4294965)
             pool.close()
             pool.join()
         except KeyboardInterrupt:
